@@ -501,6 +501,7 @@ Finally, you can enable all the pipes debugging by using a wildcard:
 
 ## Change Log
 
-
-
 Enjoy!
+
+## note
+This is a fork of bagpipes to update dependencies. The intention is to keep it up-to-date. Email github@howepc.com if I've failed!
