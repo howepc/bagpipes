@@ -1,5 +1,5 @@
 {
-  "name": "bagpipes",
+  "name": "@howepc/bagpipes",
   "version": "0.3.0",
   "description": "Less code, more flow. Let's dance!",
   "main": "lib/index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/howepc/bagpipes.git"
+    "url": "git+https://github.com/howepc/bagpipes.git"
   },
   "keywords": [
     "swagger",
     "plumbing",
     "pipes"
   ],
-  "author": "Scott Ganyo <sganyo@apigee.com> forked by Heath Howe <github@howepc.com>",
+  "author": "Scott Ganyo <sganyo@apigee.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/howepc/bagpipes/issues"
@@ -40,5 +40,9 @@
     "proxyquire": "^2.1.1",
     "should": "^7.1.0",
     "supertest": "^3.1.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
